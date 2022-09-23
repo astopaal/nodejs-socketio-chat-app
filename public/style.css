@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    
+}
+
+input:focus, button:focus {
+    outline: 0;
+}
+
+body {
+    font-family: Poppins;
+}
+
+h2 {
+    font-size : 24px;
+    padding: 10px, 20px;
+    color: #fff;
+    background-color: #00455a;
+}
+
+#chat-wrap {
+    max-width: 600px;
+    border: 1px solid #ccc;
+    margin: 30px auto;
+    border-radius: 4px;
+}
+
+#chat-window {
+    height: 400px;
+    overflow-y: auto;
+}
+
+#output p {
+    font-size: 15px;
+    padding: 12px ;
+}
+
+#output p:nth-child(even) {
+    font-size: 15px;
+    padding: 12px ;
+    background-color : #d1cfcf;
+}
+
+#feedback p {
+    font-size : 13px;
+    padding: 12px;
+}
+
+#output strong{
+    color: #00455a;
+}
+
+input {
+    font-family: 'Poppins';
+    padding: 10px 20px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+
+button {
+    font-family: 'Poppins';
+    background-color:#00455a;
+    color: #fff;
+    border: 0;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 17px;
+}
